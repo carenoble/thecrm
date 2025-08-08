@@ -1,4 +1,12 @@
 {
+  "name": "crm-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd crm-lead-tracker && npm install && npm run build",
+    "start": "cd crm-lead-tracker && npm start",
+    "dev": "cd crm-lead-tracker && npm run dev",
+    "install-deps": "npm install && cd crm-lead-tracker && npm install"
+  },
   "devDependencies": {
     "@types/jsonwebtoken": "^9.0.10"
   },
